@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T17:55:07 IST" name="Default suite" finished-at="2025-07-14T17:56:10 IST" duration-ms="62603">
+  <suite started-at="2025-07-14T18:16:40 IST" name="Default suite" finished-at="2025-07-14T18:18:01 IST" duration-ms="80109">
     <groups>
     </groups>
-    <test started-at="2025-07-14T17:55:07 IST" name="Default test" finished-at="2025-07-14T17:56:10 IST" duration-ms="62603">
+    <test started-at="2025-07-14T18:16:40 IST" name="Default test" finished-at="2025-07-14T18:18:01 IST" duration-ms="80109">
       <class name="org.tests.YatraHomePla">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.tests.YatraHomePla@3116c353]" started-at="2025-07-14T17:54:10 IST" name="launch" finished-at="2025-07-14T17:55:07 IST" duration-ms="56968" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.tests.YatraHomePla@3116c353]" started-at="2025-07-14T18:16:11 IST" name="launch" finished-at="2025-07-14T18:16:40 IST" duration-ms="29762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="testOne()[pri:0, instance:org.tests.YatraHomePla@3116c353]" started-at="2025-07-14T17:55:08 IST" name="testOne" finished-at="2025-07-14T17:56:10 IST" duration-ms="61905" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:org.tests.YatraHomePla@3116c353]" started-at="2025-07-14T18:16:41 IST" name="testOne" finished-at="2025-07-14T18:18:00 IST" duration-ms="79567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
