@@ -34,7 +34,7 @@ public class YatraPages {
 		return page;
 	}
 	public void displayPrice() {
-		page.locator(prices).allTextContents().forEach(p->System.out.println(p));
+		page.locator(prices).allInnerTexts().forEach(p->System.out.println(p));
 		
 	}
 }
