@@ -1,46 +1,53 @@
-# Playwright TestNG Project
+# 🛫 Yatra Automation Project
 
-This project is generated from an archetype. It exists out of TestNG, Playwright, Allure and OWNER as the main dependencies.
+## 📌 Project Overview
 
+This project is a **Playwright-based test automation** solution developed for interacting with the [Yatra](https://www.yatra.com/) flight booking site. The focus is on automating the **departure date calendar**, handling both visible months, and extracting **lowest fare details** with clean and dynamic implementation.
 
-## Run tests
+---
 
-`mvn clean test`
+## 🔧 Technologies Used
 
-## Run tests in specific browser
+- 💻 **Java**
+- 🌐 **Playwright**
+- 🧪 **TestNG** *(if applicable)*
+- 🛠️ **Maven / Gradle**
+- 🌍 Web UI: Yatra.com
 
-`mvn clean test -Dbrowser=chromium`
+---
 
-`mvn clean test -Dbrowser=chromium_headed`
+## 🎯 Core Highlights
 
-`mvn clean test -Dbrowser=firefox`
+- ✅ **No hardcoded values** – everything built dynamically
+- ♻️ **Reusable methods** – each function can be invoked independently
+- 📅 Handles:
+  - **Current month**
+  - **Next month**
+  - **Both calendar views**
+- 💰 Extracts and filters all fare options
+- 📉 Selects and interacts with the **lowest available fare**
 
-`mvn clean test -Dbrowser=firefox_headed`
+---
 
-`mvn clean test -Dbrowser=webkit`
+## 🚀 Functional Flow
 
-`mvn clean test -Dbrowser=webkit_headed`
+1. **Launch Yatra site**
+2. **Click on Departure Date** input
+3. **Calendar pop-up** appears with current and next months
+4. Collect all **fare WebElements** dynamically
+5. Use **Stream API** to:
+   - Convert fare text to integers
+   - Filter duplicates if needed
+   - Identify the **lowest fare**
+6. **Click or print** the lowest fare element
 
-`mvn clean test -Dbrowser=chrome`
+---
 
-`mvn clean test -Dbrowser=chrome_headed`
+## ⚙️ Design Philosophy
 
-`mvn clean test -Dbrowser=msedge`
+- 🔄 Fully dynamic — handles changes in fare count or structure
+- 🔍 Built with maintainability in mind
+- ♻️ All code written in **modular and reusable** methods
+- ❌ No reliance on static text or hardcoded locators
 
-`mvn clean test -Dbrowser=msedge_headed`
-
-## Generate report
-
-`mvn allure:report`
-
-## Serve report
-
-`mvn allure:serve`
-
-## Check for dependency updates
-
-`mvn versions:display-dependency-updates`
-
-## Update to the latest release version
-
-`versions:update-properties`
+---
